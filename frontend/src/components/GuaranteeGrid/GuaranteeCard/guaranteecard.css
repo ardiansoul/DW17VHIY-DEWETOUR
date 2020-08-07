@@ -1,0 +1,14 @@
+.guaranteegrid {
+  box-sizing: border-box;
+  position: relative;
+  top: -30px;
+}
+
+.guaranteegrid .guaranteecard {
+  width: 250px;
+  height: 350px;
+  box-sizing: border-box;
+  background: #ffffff;
+
+  border-radius: 5px;
+}
