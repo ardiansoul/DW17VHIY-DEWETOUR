@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 547px;
+  /* height: 547px; */
   background: url(../../images/HeroImage.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+  top: 0;
   z-index: 0;
 }
 
@@ -31,4 +32,14 @@
   color: #ffffff;
   background: #ffaf00;
   outline: none;
+}
+
+.profile img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffaf00;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
 }

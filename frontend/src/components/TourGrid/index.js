@@ -8,6 +8,7 @@ function TourGrid() {
   const list = TourData.map((TourData, i) => (
     <TourCard
       key={i}
+      id={TourData.id}
       img={TourData.img}
       alt={TourData.alt}
       capacity={TourData.capacity}
@@ -17,14 +18,7 @@ function TourGrid() {
     />
   ));
 
-  return (
-    <div className="tourgrid d-flex flex-wrap">
-      <div className="col-12 my-3">
-        <h3 className="text-center">Group Tour</h3>
-      </div>
-      {list}
-    </div>
-  );
+  return <div className="tourgrid d-flex flex-wrap">{list}</div>;
 }
 
 export default TourGrid;

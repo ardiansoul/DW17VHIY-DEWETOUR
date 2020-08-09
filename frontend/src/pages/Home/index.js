@@ -9,6 +9,9 @@ function Home() {
     <div>
       <HeroImage />
       <GuaranteeGrid />
+      <div className="col-12 my-3">
+        <h3 className="text-center">Group Tour</h3>
+      </div>
       <TourGrid />
     </div>
   );
